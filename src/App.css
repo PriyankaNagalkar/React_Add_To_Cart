@@ -1,0 +1,30 @@
+.btn-wrapper button {
+ background-color: red;
+ padding: 10px;
+ border-radius: 4px;
+ color: #fff;
+ box-shadow: #7c7676 0px 1px 5px;
+}
+
+.img-wrapper img {
+    width: 100px;
+}
+
+.cart-wrapper{
+    height: 170px;
+    width: 500px;
+    border: 1px solid #ccc;
+    margin-left: 5%;
+}
+
+.item{
+    float: left;
+    width: 120px;
+    padding: 20px;
+    height: 70px;
+}
+
+.add-to-cart img{
+    width: 70px;
+    float: right;
+}
