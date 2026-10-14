@@ -1,3 +1,7 @@
+.cartContainer{
+    display: flex;
+}
+
 .btn-wrapper button {
  background-color: red;
  padding: 10px;
@@ -27,4 +31,31 @@
 .add-to-cart img{
     width: 70px;
     float: right;
+    /* position:relative */
+}
+
+.cart-count {
+   position: absolute;
+   top: 25px;
+  right: 6px;
+  width: 25px;
+  height: 25px;
+  /* padding: 0 5px; */
+  border-radius: 50%;
+  background-color: orange;
+  color: #fff;
+  font-size: 12px;
+  font-weight: bold;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.text-wrapper{
+    margin-top: 45px;
+    margin-right: 20px;
+}
+
+.heading {
+    margin-left: 76px;
 }
